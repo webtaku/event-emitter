@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "inlineSources": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "lib": [
+      "DOM",
+      "ESNext",
+      "ScriptHost"
+    ],
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "declarationMap": true,
+    "composite": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "dist",
+    "types": ["jest", "node"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

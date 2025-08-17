@@ -1,1 +1,1 @@
-# event-container
+# event-emitter
